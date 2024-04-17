@@ -1,0 +1,21 @@
+[package]
+name = "i_dao_proc_macro"
+version = "0.1.0"
+edition = "2021"
+authors = ["PMC <pandamancoin@gmail.com>"]
+rust-version = "1.74"
+description = "i_dao 宏"
+documentation = "https://github.com/PandaManPMC/i_dao_proc_macro.git"
+readme = "README.md"
+repository = "https://github.com/PandaManPMC/i_dao_proc_macro.git"
+license = "MIT OR Apache-2.0"
+
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
+syn = { version = "1.0.109", features = ["full"] }
+quote = "1.0"
+
+[lib]
+proc-macro=true
